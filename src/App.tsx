@@ -1,8 +1,8 @@
-import "./styles.css";
+import "./App.css";
 
 import KhmerChessBoardComp from "./KhmerChessBoardComp";
-const kcb = require("khmer-chess-board/package.json");
-const kcai = require("khmer-chess-ai/package.json");
+import kcb from "khmer-chess-board/package.json";
+import kcai from "khmer-chess-ai/package.json";
 
 export default function App() {
     return (
